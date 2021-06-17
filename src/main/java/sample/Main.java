@@ -13,6 +13,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
+        // Test
         URL url = Paths.get("./src/main/resources/fxml/sample.fxml").toUri().toURL();
         Parent root = FXMLLoader.load(url);
         primaryStage.setTitle("Kolonisten van Catan");
