@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.media.MediaPlayer;
 import javafx.stage.Stage;
 
 import java.net.URL;
@@ -21,6 +22,10 @@ public class Main extends Application {
         primaryStage.show();
     }
 
+    MediaPlayer mediaPlayer;
+    public void music() {
+        String s = ""
+    }
 
     public static void main(String[] args) {
         launch(args);
